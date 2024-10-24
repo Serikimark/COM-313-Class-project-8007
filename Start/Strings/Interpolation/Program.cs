@@ -1,4 +1,4 @@
-﻿// Application Programming .NET Programming with C# by Abdullahi Tijjani
+// Application Programming .NET Programming with C# by Abdullahi Tijjani
 
 // String Interpolation is a feature that enables the easy insertion of data
 // and expression values into a string variable
@@ -11,10 +11,13 @@ string c = "CSharp";
 Console.WriteLine("The values are {0}, {1} and {2}", a, b, c);
 
 // TODO: Using string interpolation, the code is much easier to read
-
+Console.WriteLine("{0,-15} {1,10}", "Float Val", "Int Val");
+Console.WriteLine($"{f1,-15} {i1,10}");
 
 // TODO: Interpolated strings can contain expressions as well
-
+Console.WriteLine("{0,-15} {1,10}", "Float Val", "Int Val");
+Console.WriteLine($"{f1,-15} {i1,10}");
 
 // TODO: Complex objects can be embedded in strings this way as well
-
+Console.WriteLine("{0,-15} {1,10}", "Float Val", "Int Val");
+Console.WriteLine($"{f1,-15} {i1,10}");
