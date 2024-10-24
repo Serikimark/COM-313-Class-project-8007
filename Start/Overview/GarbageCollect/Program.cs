@@ -1,4 +1,4 @@
-﻿// Application Programming .NET Programming with C# by Abdullahi Tijjani
+// Application Programming .NET Programming with C# by Abdullahi Tijjani
 // Demonstration of Garbage Collection
 
 void DoSomeBigOperation() {
@@ -16,7 +16,7 @@ Console.ReadLine();
 // Call the function that allocates a large memory chunk
 DoSomeBigOperation();
 // TODO: After the function completes, force a Garbage Collection 
-
+GC.Collect();
 // Retrieve and print the updated total memory amount
 Console.WriteLine($"Allocated memory is: {GC.GetTotalMemory(false)}");
 Console.ReadLine();
